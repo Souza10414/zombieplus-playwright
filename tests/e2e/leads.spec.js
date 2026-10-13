@@ -1,7 +1,7 @@
 
 const { test, expect } = require('@playwright/test');
 
-const { LandingPage } = require('./pages/LandingPage');
+const { LandingPage } = require('../pages/LandingPage');
 
 let landingPage
 
