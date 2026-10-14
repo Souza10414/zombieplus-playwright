@@ -1,4 +1,4 @@
-const {expect} = require('@playwright/test')
+const { expect } = require('@playwright/test')
 
 export class LoginPage {
 
@@ -21,7 +21,6 @@ export class LoginPage {
 
     async isLoggedIn() {
         await this.page.waitForLoadState('networkidle')
-        await expect(this.page).toHaveURL(/.*admin/)       
+        await expect(this.page).toHaveURL(/.*admin/)
     }
-
 } 
