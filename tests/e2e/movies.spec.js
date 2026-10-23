@@ -2,6 +2,8 @@ const { test } = require('@playwright/test')
 
 const data = require('../support/fixtures/movies.json')
 
+const {executeSQL} = require('../support/database')
+
 const { LoginPage } = require('../pages/LoginPage')
 const {MoviesPage} = require('../pages/MoviesPage')
 const { Toast } = require('../pages/Components')
@@ -19,6 +21,8 @@ test.beforeEach(({ page }) => {
 test('deve poder cadastrar um novo filme', async ({ page}) => {
 
     const movie = data.create
+
+    await executeSQL(`DELETE from movies WHERE title = '${movie.title}';`)
 
     await loginPage.visit()
     await loginPage.submit('admin@zombieplus.com', 'pwd123')
