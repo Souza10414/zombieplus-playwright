@@ -5,15 +5,15 @@
       "company": "Paramount Pictures",
       "release_year": 2013,
       "featured": true,
-      "cover": "/caminho/para/guerra_mundial_z.png"
+      "cover": "/covers/movies/wwz.png"
     },
-    "resident_evil_o_hospedeiro": {
+    "duplicate": {
       "title": "Resident Evil: O Hospedeiro",
       "overview": "Alice se junta a sobreviventes para enfrentar a Corporação Umbrella e os zumbis mutantes criados por ela.",
-      "company": "Screen Gems",
+      "company": "Columbia Pictures",
       "release_year": 2002,
       "featured": false,
-      "cover": "/caminho/para/resident_evil_o_hospedeiro.png"
+      "cover": "/covers/movies/resident-evil.jpg"
     },
     "a_noite_dos_mortos_vivos": {
       "title": "A Noite dos Mortos-Vivos",
@@ -50,7 +50,7 @@
     "orgulho_e_preconceito_e_zumbis": {
       "title": "Orgulho e Preconceito e Zumbis",
       "overview": "Elizabeth Bennet e Sr. Darcy unem forças para combater uma praga de zumbis que assola a Inglaterra.",
-      "company": "Screen Gems",
+      "company": "Columbia Pictures",
       "release_year": 2016,
       "featured": false,
       "cover": "/caminho/para/orgulho_e_preconceito_e_zumbis.png"
