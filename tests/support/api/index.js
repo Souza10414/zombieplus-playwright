@@ -18,9 +18,6 @@ export class Api {
             }
         })
 
-        console.log('STATUS:', response.status())
-        console.log('RESPOSTA:', await response.text())
-
         expect(response.ok()).toBeTruthy()
         const body = JSON.parse(await response.text())
         this.token = 'Bearer ' + body.token
