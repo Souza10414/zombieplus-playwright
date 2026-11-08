@@ -34,7 +34,6 @@ export class Api {
         expect(response.ok()).toBeTruthy()
 
         const body = JSON.parse(await response.text())
-
         return body.data[0].id
 0    }
 
